@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(1, 26, 29);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: 'Yeseva One', sans-serif;
+    margin-left: 20px;
+}
+
+.réseaux {
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+body p {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+.p1 {
+    color: rgb(125, 124, 124);
+    font-size: 20px;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.encadrer {
+    background-color: rgb(32, 212, 176);
+    padding: 5px 10px;
+}
+
+.surligner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.surligner span:hover {
+    background-color: rgb(32, 212, 176);
+    padding: 5px 10px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.images img {
+    width: 100%;
+}
+
+.footer p {
+    color: rgb(155, 152, 152);
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer .size {
+    font-size: 11px;
+}
+
+/* Police importée */
+
+.yeseva-one-regular {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat-titre {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*L'écran s'adapte a tablette et téléphone*/
+
+@media (max-width: 1024px) {
+    .images {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .images {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .images img:nth-child(n + 10) {
+        display: none;
+    }
+}
