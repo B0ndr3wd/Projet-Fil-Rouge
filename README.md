@@ -11,7 +11,7 @@ Réalisation d'une page web pour une photographe d'art qui partage une galerie d
 
 ## Fonctionnalités :
 
-- **Galerie d'images** :
+- **Galerie d'images**
 - **Version PC** : Grille de 4 images par ligne.
 - **Version Tablette** : Grille de 5 images par ligne.
 - **Version Mobile** : Grille de 3 images par ligne.
